@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="7" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2026-10-31" time="11:04:23">
+  <environment clr-version="8.0.21" user-domain="ABHISHEK-LAPTOP" machine-name="ABHISHEK-LAPTOP" platform="Microsoft Windows 11 Pro|C:\WINDOWS|\Device\Harddisk1\Partition3" cwd="G:\My Drive\VSCoding\Application\GitHub\OpenShift.PowerShell" nunit-version="2.5.8.0" user="user" os-version="10.0.26300" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="29.9491" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="G:\My Drive\VSCoding\Application\GitHub\OpenShift.PowerShell\Tests\Unit\Transport.Tests.ps1" executed="True" result="Success" success="True" time="29.9491" asserts="0" description="G:\My Drive\VSCoding\Application\GitHub\OpenShift.PowerShell\Tests\Unit\Transport.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Real HTTPS transport with a temporary private CA" executed="True" result="Success" success="True" time="28.0743" asserts="0" description="Real HTTPS transport with a temporary private CA">
+            <results>
+              <test-case description="validates custom CA and sends a bearer token over HTTPS" name="Real HTTPS transport with a temporary private CA.validates custom CA and sends a bearer token over HTTPS" time="5.9681" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="rejects an untrusted certificate with the default trust store" name="Real HTTPS transport with a temporary private CA.rejects an untrusted certificate with the default trust store" time="2.1356" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="authenticates using a real TLS client certificate without a bearer token" name="Real HTTPS transport with a temporary private CA.authenticates using a real TLS client certificate without a bearer token" time="4.1564" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="rejects hostname mismatch even with a trusted custom root" name="Real HTTPS transport with a temporary private CA.rejects hostname mismatch even with a trusted custom root" time="0.0282" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="maps actual unauthorized responses without leaking body content" name="Real HTTPS transport with a temporary private CA.maps actual unauthorized responses without leaking body content" time="2.0885" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="blocks redirects and never follows the target host" name="Real HTTPS transport with a temporary private CA.blocks redirects and never follows the target host" time="2.0667" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="serializes real write requests for all supported methods" name="Real HTTPS transport with a temporary private CA.serializes real write requests for all supported methods" time="10.3838" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,10 @@
+reports/
+TestResults/
+*.session.json
+*.log
+*.jsonl
+.env
+kubeconfig*
+*.key
+*.pfx
+*.pem
